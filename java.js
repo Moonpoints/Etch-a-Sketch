@@ -25,6 +25,7 @@ cellListener = () => {
 etch.addEventListener("click", () => {
     currentMode = "darken";
 })
+
 color.addEventListener("click", () => {
     document.getElementById("colorPicker").style.display = "block";
     currentMode = "color";
