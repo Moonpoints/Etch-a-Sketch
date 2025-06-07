@@ -30,7 +30,6 @@ darkenColor = (rgbString, amount) => {
     return `rgb(${darkened.map(v => Math.round(v)).join(', ')})`;
 };
 
-
 deleteGrid = () => {
     grid.innerHTML = "";
 }
@@ -54,8 +53,6 @@ if(isNaN(getChoice)){
    cellListener();
 }
 }
-
-
 
 button.addEventListener("click",() => {
     deleteGrid();
