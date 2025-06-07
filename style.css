@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.grid {
+    flex: 1;
+    background-color: grey;
+    flex-basis: 10%;
+    min-width: 5%;
+    max-height: 5%
+}
+
