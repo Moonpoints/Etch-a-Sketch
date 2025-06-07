@@ -34,5 +34,8 @@ body {
 
 #reset {
     background-color: rgb(111, 0, 255);
-    color: rgb(249, 161, 252)
+    color: rgb(249, 161, 252);
+    height: 30px;
+    font-weight: 700;
+    font-size: 15px;
 }
