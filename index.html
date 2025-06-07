@@ -10,7 +10,15 @@
   <div id ="buttons">
       <button id="reset">Reset Me!</button>
       <button id="eraser">Eraser</button>
+      <div id="colorPicker" style="display: none; position: absolute; top: 100px; left: 100px; background: rgb(230, 230, 230); padding: 10px; border: 1px solid #ccc; z-index: 10;">
+  <label>R: <input type="range" id="rSlider" min="0" max="255"></label><br>
+  <label>G: <input type="range" id="gSlider" min="0" max="255"></label><br>
+  <label>B: <input type="range" id="bSlider" min="0" max="255"></label><br>
+  <div id="colorPreview" style="width: 100px; height: 30px; margin-top: 10px;"></div>
+  <button id="closeColorPicker">Close</button>
+</div>
       <button id="color">Change Color</button>
+      <button id="etch">Etch Mode</button>
   </div>
   <div id="container">
     <div id="grid"></div>
