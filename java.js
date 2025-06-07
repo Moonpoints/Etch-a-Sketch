@@ -1,5 +1,8 @@
 let grid = document.querySelector("#grid");
 let button = document.querySelector("#reset");
+let buttons = document.querySelector("#buttons");
+let color = document.querySelector("#color");
+let eraser = document.querySelector("#eraser")
 let userChoice = 16;
 
 cellListener = () =>{
@@ -11,6 +14,10 @@ cell.addEventListener("mouseover", (sketch) => {
 });
 });
 };
+
+//getEraser = () =>{}
+
+
 
 firstGrid = () =>{
 for (let i = 0; i < userChoice * userChoice; i ++){

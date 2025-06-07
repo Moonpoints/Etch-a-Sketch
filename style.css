@@ -31,10 +31,18 @@ body {
     background-color: grey;
 }
 
-#reset {
+button {
     background-color: rgb(111, 0, 255);
     color: rgb(249, 161, 252);
     height: 30px;
     font-weight: 700;
     font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(111, 0, 255);
+}
+
+#buttons {
+    
+    display: flex;
+    justify-content: space-around;
 }
